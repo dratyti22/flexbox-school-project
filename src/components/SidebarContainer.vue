@@ -15,7 +15,8 @@
         <form>
             <div class="mb-4">
                 <label class="mb-2 lowercase text-base font-semibold block"
-                    >Flex-direction</label
+                    >Flex-direction (Направление размещения
+                    flex-элементов)</label
                 >
                 <BaseSelect
                     :value="flexDirection"
@@ -26,7 +27,9 @@
 
             <div class="mb-4">
                 <label class="mb-2 lowercase text-base font-semibold block"
-                    >Flex-wrap</label
+                    >Flex-wrap<br />
+                    (Перенос элементов на следующую строку при нехватке
+                    места)</label
                 >
                 <BaseSelect
                     :value="flexWrap"
@@ -37,7 +40,9 @@
 
             <div class="mb-4">
                 <label class="mb-2 lowercase text-base font-semibold block"
-                    >Justify-content</label
+                    >Justify-content<br />
+                    (Выравнивание элементов по главной оси (горизонтально, если
+                    flex-direction: row))</label
                 >
                 <BaseSelect
                     :value="justifyContent"
@@ -48,7 +53,9 @@
 
             <div class="mb-4">
                 <label class="mb-2 lowercase text-base font-semibold block"
-                    >Align-items</label
+                    >Align-items<br />
+                    (Выравнивание по поперечной оси (вертикально, если
+                    flex-direction: row))</label
                 >
                 <BaseSelect
                     :value="alignItems"
@@ -59,7 +66,9 @@
 
             <div class="mb-4">
                 <label class="mb-2 lowercase text-base font-semibold block"
-                    >Align-content</label
+                    >Align-content<br />
+                    (Выравнивание нескольких строк flex-элементов по поперечной
+                    оси)</label
                 >
                 <BaseSelect
                     :value="alignContent"
@@ -69,7 +78,7 @@
             </div>
             <div class="mb-4">
                 <label class="mb-2 lowercase text-base font-semibold block">
-                    Gap (промежуток)
+                    Gap (Отступы между элементами)
                 </label>
                 <BaseSelect
                     :value="gap"
